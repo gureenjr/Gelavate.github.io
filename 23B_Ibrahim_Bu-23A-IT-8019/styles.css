@@ -1,0 +1,147 @@
+/*HEADER*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+box-sizing: border-box;
+margin:0;
+padding: 0;
+
+}
+
+li,a,button{
+  display:inline-block;
+  font-family: "Montserrat",sans-serif;
+  font-weight:500;
+  font-size:16px;
+  color:gray;
+  text-decoration: none;
+  cursor:pointer;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+ }
+
+header{
+  width:100%;
+  position:fixed;
+  background-color:black;
+  height:30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:6%;
+}
+
+.logo{cursor: pointer;
+width:120px;
+align-items: center;
+justify-content: center;}
+
+/*countdown container*/
+
+.countdown-container {
+  text-align: center;
+  padding-top: 170px;
+
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+span {
+  font-size: 1.2rem;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-weight: bold;
+}
+/*About page*/
+.about-content {
+  text-align: left;
+  padding-top: 170px;
+
+}
+
+.Services{
+  font-size:20px;
+  cursor:pointer;
+  font-weight: bold;
+
+}
+/*AboutUs*/
+.p_content{
+  text-align: left;
+  padding-top: 170px;
+}
+/*Signup page*/
+
+
+.signup-form{
+  border:1px solid gray;
+  text-align: center;
+  padding-top: 170px;
+  width:50%;
+  margin: 0% auto 0% auto;
+}
+hr{
+  margin:0 auto 0 auto;
+  width:30%;
+}
+.input_box{
+  border-radius: 10px;
+  border:1px solid gray;
+  display:inline;
+  align-items: center;
+  padding: 8px;
+  margin: 2%;
+}
+
+
+/*Footer*/
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  position: fixed; /* Stick the footer to the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer ul li:last-child {
+  margin-right: 0;
+}
+
